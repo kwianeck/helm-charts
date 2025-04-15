@@ -1,6 +1,6 @@
 apiVersion: v1
 entries:
-  kasm-single-zone:
+  kasm-custom:
   - annotations:
       category: Virtual Desktop
       images: |
@@ -22,13 +22,13 @@ entries:
           image: redis:5-alpine
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-15T12:37:51.899660879+02:00"
+    created: "2025-04-15T13:44:50.987236182+02:00"
     description: Kasm is a platform specializing in providing secure browser-based
       workspaces for a wide range of applications and industries. Its main goal is
       to provide isolated and secure environments that can be accessed via web browsers,
       ensuring that users can perform tasks without risking the security of their
       local systems.
-    digest: 5ad41e1500c84fd72015efb146f729bc7badb8ff01fa58d35e61da3cc54e11e5
+    digest: 017ecc20c6a8ffa80776feef54a558b951491cffe770a8b9f8b54c03ee8c4fbd
     home: https://kasmweb.com
     icon: https://kasm-static-content.s3.amazonaws.com/icons/kasm-logo-small.png
     keywords:
@@ -36,10 +36,10 @@ entries:
     - vdi
     - workspaces
     maintainers:
-    - name: Kasm Technologies, Inc.
-      url: https://github.com/kasmtech/kasm-helm
-    name: kasm-single-zone
+    - name: Kamil
+      url: https://kwianeck.github.io/helm-charts
+    name: kasm-custom
     urls:
-    - https://kwianeck.github.io/helm-charts/kasm-single-zone-1.16.0-develop.tgz
-    version: 1.16.0-develop
-generated: "2025-04-15T12:37:51.896418498+02:00"
+    - https://kwianeck.github.io/helm-charts/kasm-custom-1.16.0-custom.tgz
+    version: 1.16.0-custom
+generated: "2025-04-15T13:44:50.984037803+02:00"
