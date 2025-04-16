@@ -22,13 +22,13 @@ entries:
           image: redis:5-alpine
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-15T13:44:50.987236182+02:00"
+    created: "2025-04-16T14:41:43.673626182+02:00"
     description: Kasm is a platform specializing in providing secure browser-based
       workspaces for a wide range of applications and industries. Its main goal is
       to provide isolated and secure environments that can be accessed via web browsers,
       ensuring that users can perform tasks without risking the security of their
       local systems.
-    digest: 017ecc20c6a8ffa80776feef54a558b951491cffe770a8b9f8b54c03ee8c4fbd
+    digest: 1c1f18abbd6107528ca20731776ecba9f3cef779e632c2f33e91d0fd52be7f3b
     home: https://kasmweb.com
     icon: https://kasm-static-content.s3.amazonaws.com/icons/kasm-logo-small.png
     keywords:
@@ -40,6 +40,6 @@ entries:
       url: https://kwianeck.github.io/helm-charts
     name: kasm-custom
     urls:
-    - https://kwianeck.github.io/helm-charts/kasm-custom-1.16.0-custom.tgz
-    version: 1.16.0-custom
-generated: "2025-04-15T13:44:50.984037803+02:00"
+    - https://kwianeck.github.io/helm-charts/kasm-custom-1.16.0-custom-dev-v1.0.tgz
+    version: 1.16.0-custom-dev-v1.0
+generated: "2025-04-16T14:41:43.67090687+02:00"
